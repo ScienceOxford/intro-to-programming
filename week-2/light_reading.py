@@ -1,5 +1,9 @@
 from microbit import *
 
+# Please tag us if used!
+# We'd love to see what you make:
+# @ScienceOxford
+
 with open('light_reading.txt', 'w') as my_file:
     
     my_file.write("Start of light recording\n")
