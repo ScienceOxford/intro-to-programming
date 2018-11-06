@@ -4,7 +4,7 @@ import radio
 radio.on()
 
 while True:
-    if button_a.was_pressed() and button_b.was_pressed():
+    if accelerometer.was_gesture('up'):
         radio.send('     ')
         display.show(Image.SQUARE)
     elif button_a.was_pressed():
