@@ -3,7 +3,7 @@ Using real data sets
 
 Now that you have practiced on some pre-prepared data, you can try downloading some real data sets to work from.
 
-A good place to find data, is https://data.gov.uk/
+A good place to find data is https://data.gov.uk/
 
 The following example, uses a data set of schools in East Sussex, which can be downloaded from here:
 https://data.gov.uk/dataset/e20e6581-1da4-46bb-94e8-bab86cd0e165/schools-in-east-sussex
@@ -69,3 +69,5 @@ You could now, for example:
 - make a bar graph of number of schools that start at each age
 - only show schools that take students within a certain age range
 - etc, etc, etc!
+
+More data sets: https://github.com/awesomedata/awesome-public-datasets
