@@ -13,7 +13,7 @@ Open the terminal by clicking this icon:
 
 Type the following command::
 
-    pip install matplotlib
+    pip3 install matplotlib
 
 .. image:: _pip_install.PNG
 
