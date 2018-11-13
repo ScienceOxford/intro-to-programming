@@ -13,7 +13,7 @@ Open the terminal by clicking this icon:
 
 Type the following command::
 
-    pip install microfs
+    pip3 install microfs
 
 .. image:: _pip_install.PNG
 
