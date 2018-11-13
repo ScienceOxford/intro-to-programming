@@ -14,7 +14,7 @@ with open('temp_reading.txt', 'w') as my_file:        # open, or create, the tem
         
     display.show(Image.GIRAFFE)                       # after you exit the loop, shows an image
 
-with open('light_reading.txt') as my_file:            # open the temp_reading.txt file, in read only format
+with open('temp_reading.txt') as my_file:            # open the temp_reading.txt file, in read only format
     content = my_file.read()                          # read all the data in the file, and call it content
     
 print(content)                                        # print the entire contents of the text file
