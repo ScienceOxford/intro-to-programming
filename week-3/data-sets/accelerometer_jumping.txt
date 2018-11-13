@@ -1,4 +1,4 @@
-Accelerometer data from Libby at lunchtime
+Accelerometer data from jumping
 time = 10, reading = (80, 400, -640)
 time = 11, reading = (384, 2048, 368)
 time = 12, reading = (128, 960, -80)
