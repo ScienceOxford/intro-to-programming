@@ -31,24 +31,17 @@ This imports the library, and also renames it for this program, so that you can 
 
 Now, underneath the code you have written to create a dictionary, try this example code::
 
-    # x axis values
-    x = dictionary.keys()                 # dictionary is the name of *your* created dictionary
-    # corresponding y axis values 
-    y = dictionary.values()
+    x = dictionary.keys()                 # set the values for the x and y axis
+    y = dictionary.values()               # dictionary is the name of *your* created dictionary
+   
+    plt.plot(x, y)                        # make a plot of these values
   
-    # plotting the points  
-    plt.plot(x, y) 
-  
-    # naming the x axis 
-    plt.xlabel('time') 
-    # naming the y axis 
+    plt.xlabel('time')                    # labelling the axis
     plt.ylabel('light-reading')
   
-    # giving a title to my graph 
-    plt.title('Light reading over time')
+    plt.title('Light reading over time')  # titling the graph
   
-    # function to show the plot 
-    plt.show()
+    plt.show()                            # show the graph - opens as an image
 
 This code was modified from the below website, which has other useful examples:
 https://www.geeksforgeeks.org/graph-plotting-in-python-set-1/
