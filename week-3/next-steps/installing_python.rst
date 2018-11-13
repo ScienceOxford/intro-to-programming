@@ -21,7 +21,7 @@ If you are using a Linux machine, install python3 using your package manager e.g
 
     sudo apt-get install python3
 
-**Check the box that asks you to 'Add Python 3.7 to PATH'**::
+**Check the box that asks you to 'Add Python 3.7 to PATH'**
 
 .. image:: _add_to_path.PNG
 
