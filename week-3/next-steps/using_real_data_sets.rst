@@ -14,7 +14,7 @@ Downloaded data is often found in .csv format, which stands for *comma-separated
 Each piece of data is seperated by a comma, which means that if we follow the same process as we did with the text files,
 we will end up with every entry in a list, instead of every *line* in a list, which is less useful::
     
-    [['School name'], ['School type'], ['Telephone'], ['Address1'], ['Address2'], ['Address3'], ['County'], ['Postcode'], ['Email'], ['Lower age'], ['Upper age'], ['Head Teacher'], ['Website']]
+    ['School name'], ['School type'], ['Telephone'], ['Address1'], ['Address2'], ['Address3'], ['County'], ['Postcode'], ['Email'], ['Lower age'], ['Upper age'], ['Head Teacher'], ['Website']
     !=
     ['School name', 'School type', 'Telephone', 'Address1', 'Address2', 'Address3', 'County', 'Postcode', 'Email', 'Lower age', 'Upper age', 'Head Teacher', 'Website']
     
