@@ -1,5 +1,3 @@
-from microbit import *
-
 # Please tag us if used!
 # We'd love to see what you make:
 # @ScienceOxford
