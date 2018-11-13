@@ -5,19 +5,22 @@
 '''
 Step 1
 Open a .txt file, print the content to see what the data looks like
-Split the file at each new line (\n) to get a list of strings
 Close the file
 '''
 my_file = open('light_reading.txt')
 content = my_file.read()
-#print(content)
-
-lines = content.split("\n")
-#print(lines)
 my_file.close()
+#print(content)
 
 '''
 Step 2
+Split the file at each new line (\n) to get a list of strings
+'''
+lines = content.split("\n")
+#print(lines)
+
+'''
+Step 3
 Create a new, empty, list
 Iterate through each item in the list of strings we created above (lines) and create new lists from the data
 [1:-1] means ignore the first and list items
@@ -31,7 +34,7 @@ for item in lines[1:-1]:
     data.append(items)
 
 '''
-Step 3
+Step 4
 Create a new, empty, dictionary
 Iterate through the list we filled above (data)
 Split the string to save one the information we want, then convert to integers
