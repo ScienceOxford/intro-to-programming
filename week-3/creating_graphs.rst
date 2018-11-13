@@ -7,13 +7,18 @@ This library is not installed by default.
 The following instructions will install *matplotlib* on the computer you are using (currently a Raspberry Pi), and requires Python3 installed.
 You may or may not have Python3 installed on your home computer - see seperate instructions for how to do this.
 
-Open the terminal by clicking this icon: SCREENSHOT
+Open the terminal by clicking this icon:
+
+.. image:: terminal.PNG
 
 Type the following command::
 
     pip install matplotlib
 
-When it has finished, *matplotlib* is now installed on this computer!
+.. image:: pip_install.PNG
+
+The install process might take a long time! You can continue to work on your program while it is installing.
+When it has finished, *matplotlib* is now installed on this computer.
 
 You will be creating a graph from some of your cleaned data.
 The following example shows a graph being created from a dictionary, where both keys and values are integers.
