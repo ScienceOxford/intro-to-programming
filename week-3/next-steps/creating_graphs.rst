@@ -9,13 +9,13 @@ You may or may not have Python3 installed on your home computer - see seperate i
 
 Open the terminal by clicking this icon:
 
-.. image:: terminal.PNG
+.. image:: _terminal.PNG
 
 Type the following command::
 
     pip install matplotlib
 
-.. image:: pip_install.PNG
+.. image:: _pip_install.PNG
 
 The install process might take a long time! You can continue to work on your program while it is installing.
 When it has finished, *matplotlib* is now installed on this computer.
