@@ -1,0 +1,17 @@
+Start of light recording
+This data was saved by Sarah, using a BBC micro:bit
+light = 81, time in seconds = 0
+light = 83, time in seconds = 1
+light = 87, time in seconds = 2
+light = 79, time in seconds = 3
+light = 79, time in seconds = 4
+light = 78, time in seconds = 5
+light = 78, time in seconds = 6
+light = 53, time in seconds = 7
+light = 20, time in seconds = 8
+light = 16, time in seconds = 9
+light = 69, time in seconds = 10
+light = 78, time in seconds = 11
+light = 63, time in seconds = 12
+End of data
+
