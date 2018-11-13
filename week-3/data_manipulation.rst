@@ -5,7 +5,7 @@ This walkthrough uses the data set *light_sarah.txt*
 
 Open Mu in Python 3 mode, and start a new file::
 
-    my_file = open('light_reading.txt')
+    my_file = open('light_sarah.txt')
     content = my_file.read()
     my_file.close()
     print(content)
