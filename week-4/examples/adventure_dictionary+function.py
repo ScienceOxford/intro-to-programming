@@ -12,7 +12,7 @@ def start():
 
 def read():
     print("The note says: Come to the Red Wizard and ask for Sarah, she'll know what to do.")
-    print("As you read the note, you hear a noise behind you.  You're not alone!")
+    print("As you read the note, you hear a noise behind you.  You are not alone!")
     print("To ask who is there, type ASK.  To rush and attack, type ATTACK.")
     waitForInput()
     
