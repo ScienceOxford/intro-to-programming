@@ -4,21 +4,22 @@ Test it and see how it works, then think about how you would improve it.
 See LINK TO FILE for some ideas, and links, to get you started.
 '''
 
+import sys
+
 def start():
     print("You wake up in a strange place.")
     print("On your left is a desk with a note on it, through the door you can see a street.")
-    print("To read the note, type READ.  To exit through the door, type EXIT")
+    print("To read the note, type READ.  To exit through the door, type LEAVE")
     while True:
         choice = input(">> ")
         if choice == "READ":
             return read()
-        if choice == "EXIT":
-            return exit()
+        if choice == "LEAVE":
+            return leave()
         if choice == "QUIT":
-            break
+            sys.exit()
         else:
-            print("Please choose READ or EXIT")
-
+            print("Please choose READ or LEAVE")
 
 def read():
     print("The note says: Come to the Red Wizard and ask for Sarah, she'll know what to do.")
@@ -31,10 +32,12 @@ def read():
         if choice == "ATTACK":
             return attack()
         if choice == "QUIT":
-            break
+            sys.exit()
         else:
             print("Please choose ASK or ATTACK")
-
+    
+def leave():
+    print("You chose LEAVE")
 
 def ask():
     print("You chose ASK")
@@ -44,7 +47,7 @@ def attack():
 
 
 # The first few lines are instructions to your reader
-title = "**Choose Your Own Adventure!**"
+title = "**Choose Your Own Adventure**"
 print("Welcome to " + title)
 print("Throughout the story, you choose what happens!")
 print("Make your choices by following the prompts, type in CAPITAL LETTERS")
@@ -52,5 +55,5 @@ print("To close the book, type QUIT")
 print()
 print("- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -")
 print()
-# The below line calls the 'start()' function, which means it follows the steps defined above
+# Now we start your story!
 start()
