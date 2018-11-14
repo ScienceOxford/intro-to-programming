@@ -7,7 +7,7 @@ Step 1
 Open a .txt file, print the content to see what the data looks like
 Close the file
 '''
-my_file = open('light_reading.txt')
+my_file = open('light_sarah.txt')
 content = my_file.read()
 my_file.close()
 #print(content)
