@@ -4,6 +4,10 @@ Test it and see how it works, then think about how you would improve it.
 See LINK TO FILE for some ideas, and links, to get you started.
 '''
 
+# Please tag us if used!
+# We'd love to see what you make:
+# @ScienceOxford
+
 import sys
 
 def start():
@@ -23,7 +27,7 @@ def start():
 
 def read():
     print("The note says: Come to the Red Wizard and ask for Sarah, she'll know what to do.")
-    print("As you read the note, you hear a noise behind you.  You're not alone!")
+    print("As you read the note, you hear a noise behind you.  You are not alone!")
     print("To ask who is there, type ASK.  To rush and attack, type ATTACK.")
     while True:
         choice = input(">> ")
