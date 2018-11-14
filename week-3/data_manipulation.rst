@@ -49,7 +49,7 @@ So if you needed to ignore the first two lines of the code, you’d say [2:-1].
 If we want to keep the last line in this scenario, [2:]. If we ONLY wanted the first 5 lines, [0:6] **or** [:6].
 
 Now we need to **do** something with this data – right now we’re printing it to the console, but not storing it anywhere.
-Modify your code like so::
+To store the data in another new list, modify your code like so::
 
     data = []
     for item in lines[1:-1]:
@@ -74,6 +74,11 @@ We can cut out the extra information from a string, the same way we took out the
 
     key = element[0][7:]
     value = element[1][11:]
+    
+Or, alternatively::
+
+    key = element[0].strip('time = ')
+    value = element[1].strip(' reading = ')
 
 These are still strings at the moment, which means we can’t use them for maths, or to plot a graph etc.
 But now we have reduced them down to only the number information, we can convert them to integers::
