@@ -1,4 +1,4 @@
-Functions
+Introduction to Github (using the browser)
 -------------
 
 **Step 1:** Create an account.
@@ -41,3 +41,11 @@ The repositiory owner will see a screen such as the one below, and be able to re
 If the repository owner has any questions or suggestions, they can comment on the pull request before accepting it.
 
 Once your pull request has been accepted, your changes will be merged with the original, and (if you are finished with it) you can delete your fork.
+
+**Next steps:**
+
+Github has help guides here: https://help.github.com/articles/create-a-repo/
+
+And a tutorial series here: https://lab.github.com/
+
+If you want to start editing open source projects, here is a list of projects that are welcoming to beginners: https://github.com/showcases/great-for-new-contributors
