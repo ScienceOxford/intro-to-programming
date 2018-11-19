@@ -41,7 +41,3 @@ The repositiory owner will see a screen such as the one below, and be able to re
 If the repository owner has any questions or suggestions, they can comment on the pull request before accepting it.
 
 Once your pull request has been accepted, your changes will be merged with the original, and (if you are finished with it) you can delete your fork.
-
-**Next steps**
-
-Today you can work in your fork, and edit the adventure_starter.py file.
