@@ -1,7 +1,7 @@
 Ideas for projects!
 -------------
 
-If you don't have a project in mind already, below are some suggested links and libraries that you may wish to think about.
+If you don't have a project in mind already, below are some libraries that you may wish to think about.
 These are all libraries that I (Sarah) have used in the past, so have *some* experience using.
 
 |
