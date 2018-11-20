@@ -67,5 +67,20 @@ RPi.GPIO library: https://sourceforge.net/p/raspberry-gpio-python/wiki/BasicUsag
 |
 |
 
+**Use your micro:bit as an input or output to affect your program.**
+
+|
+|
+
+**Object Orientated Programming**
+
+There is a great (4-week) online course by the Raspberry Pi Foundation to teach object-orientated programming by creating a text-based-adventure game.
+If you are reaching the limits of what you can create using the suggestions above, I would highly recommend working through this course!
+
+https://www.futurelearn.com/courses/object-oriented-principles
+
+|
+|
+
 **Add your ideas and links here...**
 
