@@ -15,7 +15,7 @@ If you have any cool ideas / find any good resources, add them at the end of thi
   
   choice.upper()   # makes the 'choice' string upper case
 
-String methods: https://www.tutorialspoint.com/python/python_strings.htm
+String methods: https://www.w3schools.com/python/python_ref_string.asp
 
 |
 |
