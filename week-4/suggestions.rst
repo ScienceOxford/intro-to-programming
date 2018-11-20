@@ -58,5 +58,14 @@ Example: https://github.com/ScienceOxford/intro-to-programming/blob/prep-week-4/
 |
 |
 
+**Use the Raspberry Pi's GPIO pins to add lights and sound to the program:**
+
+GPIOzero library: https://gpiozero.readthedocs.io/en/stable/
+
+RPi.GPIO library: https://sourceforge.net/p/raspberry-gpio-python/wiki/BasicUsage/
+
+|
+|
+
 **Add your ideas and links here...**
 
