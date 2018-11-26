@@ -31,3 +31,5 @@ Once Python is installed on your computer, you can install libraries by typing e
   pip3 install guizero
   
 Where 'guizero' is the name of the library you wish to install.
+
+.. image:: _pip_install.PNG
