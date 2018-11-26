@@ -3,7 +3,7 @@ Guizero setup
 
 **Step 1**: install Python3 on your computing by following these instructions:
 
-https://github.com/ScienceOxford/intro-to-programming/blob/week-5/week-5/installing-python/installing_python.rst
+https://github.com/ScienceOxford/intro-to-programming/blob/master/week-5/installing-python/installing_python.rst
 
 If you are using a Mac, you may need to instead follow instructions such as these:
 
