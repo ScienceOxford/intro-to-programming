@@ -57,4 +57,4 @@ Tkinter:
 https://docs.python.org/3/library/tk.html
 
 GuiZero - an easier to use version of the above:
-https://lawsie.github.io/guizero/about/
+https://lawsie.github.io/guizero/start/
