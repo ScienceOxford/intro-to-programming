@@ -12,3 +12,5 @@ https://pygame-zero.readthedocs.io/en/stable/introduction.html
 You can download free game assets from https://kenney.nl/assets?q=2d
 
 Personal favourite: https://kenney.nl/assets/medieval-rts
+
+Example use: https://github.com/ScienceOxford/mediaeval_pygamezero
