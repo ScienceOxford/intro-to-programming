@@ -56,5 +56,5 @@ https://anvil.works/learn
 Tkinter:
 https://docs.python.org/3/library/tk.html
 
-GuiZero - an easier to use version of the above:
+GuiZero - an easier to use version of the above, with good tutorials:
 https://lawsie.github.io/guizero/start/
