@@ -3,9 +3,13 @@ Pygame Zero setup
 
 **Step 1**: open Mu, and change the **Mode** to Pygame Zero.
 
+|
+
 **Step 2:** follow the Pygame Zero tutorials
 
 https://pygame-zero.readthedocs.io/en/stable/introduction.html
+
+|
 
 **Step 3:** create something!
 
