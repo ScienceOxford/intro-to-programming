@@ -1,47 +1,47 @@
-Guizero setup
+Getting started with a Sukoku solving program
 -------------
 
-**Step 1**: install Python3 on your computing by following these instructions:
+*If you are more interested in creating sudoku puzzles than in solving them, switch to the Guizero instructions here: https://github.com/ScienceOxford/intro-to-programming/blob/master/week-5/guizero/set-up.rst*
 
-https://github.com/ScienceOxford/intro-to-programming/blob/week-5/week-5/installing-python/installing_python.rst
+Below is a link to someone else's solution to this problem, but it uses concepts we haven't covered during the course, and so will take some time to understand.
 
-If you are using a Mac, you may need to instead follow instructions such as these:
+https://towardsdatascience.com/peter-norvigs-sudoku-solver-25779bb349ce
 
-http://www.pyladies.com/blog/Get-Your-Mac-Ready-for-Python-Programming/
+This is a complicated project for your first independent program, so run through the problem step by step, and try to get one thing working at once!
 
-|
+**Suggestion:**
 
-**The rest of these instructions assume you are using a Windows machine, or a Raspberry Pi.**
+Decide on how you will format your starting grid.
+For example, take this sudoku puzzle:
 
-|
+https://www.websudoku.com/?level=1&set_id=9143034716
 
-**Step 2**: install the guizero library:
+.. image:: _sudoku.PNG
 
-Open the command prompt or terminal and type the following::
+Which could be written as lists in the following ways::
 
-  pip3 install guizero
+  start = [0, 6, 0, 0, 9, 0, 0, 4, 7
+           0, 1, 7, 3, 0, 6, 0, 0, 0
+           0, 0, 3, 0, 2, 4, 0, 0, 5
+           0, 0, 1, 5, 0, 0, 0, 3, 0
+           0, 0, 6, 0, 1, 0, 9, 0, 0
+           0, 8, 0, 0, 0, 2, 4, 0, 0
+           6, 0, 0, 9, 7, 0, 5, 0, 0
+           0, 0, 0, 4, 0, 3, 7, 2, 0
+           9, 7, 0, 0, 8, 0, 0, 6, 0]
 
-|
+  start = ['.', '6', '.', '.', '9', '.', '.', '4', '7'
+           '.', '1', '7', '3', '.', '6', '.', '.', '.'
+           '.', '.', '3', '.', '2', '4', '.', '.', '5'
+           '.', '.', '1', '5', '.', '.', '.', '3', '.'
+           '.', '.', '6', '.', '1', '.', '9', '.', '.'
+           '.', '8', '.', '.', '.', '2', '4', '.', '.'
+           '6', '.', '.', '9', '7', '.', '5', '.', '.'
+           '.', '.', '.', '4', '.', '3', '7', '2', '.'
+           '9', '7', '.', '.', '8', '.', '.', '6', '.']
 
-**Step 3**: open IDLE
+Next step could be to give each of the squares a grid co-ordinate. See the URL above, and read from **'Squares'** through to **'The Cross Function'**. Stop when they begin to discuss list comprehensions - this increases the efficiency of code, but makes it less readable - for now, it is more important that you understand what is going on, than it is that your code is efficient!
 
-IDLE is the *integrated development environment (IDE)* that comes bundled with Python. Mu is the IDE we have been using so far.
-You may wish to use a different IDE in the future (a popular one is Atom), but for now IDLE will do what you need.
+You will now have a list of grid co-ordinates to compare to your sudoku puzzle.
 
-If you have more than one version of Python on your machine, you will have more than one version of IDLE. Make sure you open the latest version.
-
-IDLE opens as the Python shell - this is where the **output** of your code will be, and where **error messages** will show up.
-
-Create a new file to write your main program in:
-
-.. image:: _idle.PNG
-
-|
-
-**Step 4**: follow the Guizero tutorials
-
-https://lawsie.github.io/guizero/start/
-
-|
-
-**Step 5**: create something!
+Now, either read through the rest of the solution at the URL, or design your own solution to the problem - it can be a good idea to first write your solution down in *pseudocode* i.e. write down your solution in logic a computer can follow, but not in real Python.
