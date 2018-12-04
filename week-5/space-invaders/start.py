@@ -24,3 +24,16 @@ while True:
 # before changing the value of x, check that it is less than or equal to 0,
 # or greater than or equal to 4
 # if x >= 4:
+
+# next step: shooting
+# your cannon is always located at (x, y)
+# your laser will start there too, then move to (x, y-1), then keep moving upwards
+# remember to clear the pixel before so that moves up the screen
+
+# next step: random aliens
+# to use the random functions in python, you must -- import random
+# random.randint(0,4) will choose a random integer between 0 and 4
+# this can be translated into an x coordinate, or a y coordinate
+
+# what happens when your laser hits an alien?
+# how does your program know when your laser hits and alien?
